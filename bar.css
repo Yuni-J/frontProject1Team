@@ -1,0 +1,42 @@
+.location-wrap {
+    height: 60px;
+    background-color: rgb(2, 114, 90);
+    box-sizing: border-box;
+}
+.btn-home {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-right: 1px solid gray;
+    background-color: rgb(2, 114, 90);
+    cursor: pointer;
+    color: white;
+    position: relative;
+}
+.btn-icon{
+    width: 30px;
+    height: 25px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.common-layout {
+    width: 1180px;
+    /* margin: 0 auto; */
+}
+.location-wrap>.common-layout>div{
+    width: 100%;
+    display: flex;
+}
+.location-nav-wrap{
+    line-height: 60px;
+    margin-left: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+.location-nav-wrap span{
+    color: white;
+}
